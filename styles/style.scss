@@ -1,0 +1,102 @@
+*{
+  font-family: "Open Sans",sans-serif;
+}
+.img-border {
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+    box-shadow: 100px  10px  10px solid black;
+    box-sizing: border-box;
+}
+
+.img-border::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 3rem;
+    bottom: 3rem;
+    border: 5px solid var(--primary);
+}
+
+.img-border img {
+    position: absolute;
+    top: 3rem;
+    left: 3rem;
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    object-fit: cover;
+    border-image-outset: 10px 30px 30px 10px;
+
+}
+.container-xxl1{
+  width: auto;
+  background-image: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6)) , url("../public/bg-1.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.container-xxl2{
+  width: auto;
+  background-image: linear-gradient(rgb(0,0,0,0.8) , rgb(0,0,0,0.8)) , url("../public/bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+
+}
+
+.membership-item1{
+  background-image: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6)) , url("../public/animal-lg-1.jpg");
+  background-size: cover;
+  height: 427.2px;
+
+}
+
+.membership-item2{
+  background-image: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6)) , url("../public/animal-lg-2.jpg");
+  background-size: cover;
+  height: 427.2px;
+}
+
+.membership-item3{
+  background-image: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6)) , url("../public/animal-lg-3.jpg");
+  background-size: cover;
+  height: 427.2px;
+}
+
+.bg-con{
+  background-image: linear-gradient(rgb(0,0,0,0.6) , rgb(0,0,0,0.6)) , url("../public/bg-2.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.navbar-nav a:hover{
+  color: #2eb872;
+
+}
+.navbar-nav a{
+  color: gray ;
+}
+
+.navbar-nav .active{
+  color: #2eb872;
+}
+
+.bg-con a:hover{
+  color: #2eb872;
+}
+
+.bg-con .btn-link{
+  color: white;
+  display: flex;
+}
+
+.bg-con a{
+  color: white;
+}
+
+.header-bg{
+  background-image: linear-gradient(rgb(0,0,0,0.8) , rgb(0,0,0,0.8)) , url("../public/bg-1.jpg");
+  background-position: center;
+}
